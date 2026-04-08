@@ -1,59 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Directory Panel | Premium Placeholder</title>
-    <meta name="description" content="A premium directory panel interface placeholder.">
-    <link rel="stylesheet" href="index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div class="glass-container">
-        <header>
-            <h1>Directory Panel</h1>
-            <p class="subtitle">Secure Storage & File Management</p>
-        </header>
-        
-        <main class="panel-grid">
-            <div class="panel-card" onclick="simulateOpen('Documents')">
-                <div class="icon">📁</div>
-                <h3>Documents</h3>
-                <p>Private & Shared Files</p>
-                <div class="badge">12 Items</div>
-            </div>
-            
-            <div class="panel-card" onclick="simulateOpen('Media')">
-                <div class="icon">🎞️</div>
-                <h3>Media</h3>
-                <p>Photos & Videos</p>
-                <div class="badge">45 Items</div>
-            </div>
-            
-            <div class="panel-card" onclick="simulateOpen('Projects')">
-                <div class="icon">🚀</div>
-                <h3>Projects</h3>
-                <p>Active Workflows</p>
-                <div class="badge">8 Items</div>
-            </div>
-            
-            <div class="panel-card" onclick="simulateOpen('Backups')">
-                <div class="icon">☁️</div>
-                <h3>Backups</h3>
-                <p>System Snapshots</p>
-                <div class="badge status-ok">Verified</div>
-            </div>
-        </main>
-        
-        <footer>
-            <button class="btn-primary" id="mainAction">Upload New Folder</button>
-        </footer>
-    </div>
-    
-    <div id="toast" class="toast">Accessing Directory...</div>
-
-    <script src="index.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>directory-panel</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
