@@ -4,7 +4,7 @@
   "description": "Premium Directory Panel placeholder website",
   "main": "index.html",
   "scripts": {
-    "build": "echo 'Building... (Static site, no build step needed)'",
+    "build": "echo 'Building static site...' && mkdir -p dist && cp index.html index.css index.js dist/",
     "deploy": "powershell -ExecutionPolicy Bypass -File ./deploy.ps1"
   },
   "keywords": [],
