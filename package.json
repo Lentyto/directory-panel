@@ -1,0 +1,13 @@
+{
+  "name": "directory-panel",
+  "version": "1.0.0",
+  "description": "Premium Directory Panel placeholder website",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Building... (Static site, no build step needed)'",
+    "deploy": "powershell -ExecutionPolicy Bypass -File ./deploy.ps1"
+  },
+  "keywords": [],
+  "author": "lentyto",
+  "license": "ISC"
+}
